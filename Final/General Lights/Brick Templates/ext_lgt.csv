@@ -1,4 +1,0 @@
-class,subClassOf,rdf_label,definition
-Lighting_Zone_Equipment_Group,brick:Lighting_System,Lighting Zone Equipment Group,A grouping of luminaires that are driven by common control logic
-Ballast,brick:Lighting,Ballast,
-Lamp,brick:Lighting,Lamp,

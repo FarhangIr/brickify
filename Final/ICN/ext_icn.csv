@@ -1,7 +1,0 @@
-﻿class,subClassOf,rdf_label,definition
-Emergency_Warning_Intercommunication_System,brick:Fire_Safety_Equipment,Emergency Warning Intercommunication System,A system utilised in large buildings that allow for a comprehensive and controlled evacuation of a building in the event of an emergency
-Isolate_Status,brick:Status,Isolate Status,The status of the Isolate mode which will cause the whole system to be isolated. I.e. alarms occurring on the FIP inputs will not cause zones to be placed into alert and evacuate
-Fire_Sprinkler,brick:Fire_Safety_Equipment,Fire Sprinkler,"A component of a fire sprinkler system that discharges water when the effects of a fire have been detected, such as when a predetermined temperature has been exceeded"
-Diesel_Fire_Pump,brick:Fire_Safety_Equipment,Diesel Pump,A fire pump that delivers water via a pipe system to the fire sprinklers to suppress the fire
-Jacking_Pump,brick:Fire_Safety_Equipment,Jacking Pump,"A secondary pump that has a function of maintaining the water pressure within a fire sprinkler system, reducing the likelihood of false alarms caused by low pressure, caused by small water leaks "
-Fire_Water_Tank,brick:Fire_Safety_Equipment,Fire Water Tank,"A water tank for fire protection, used for a variety of applications including to supply fire sprinkler systems, a source of water for firefighting, to create a fire perimeter, at fire departments to fill up trucks"

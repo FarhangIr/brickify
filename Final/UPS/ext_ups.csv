@@ -1,9 +1,0 @@
-class,subClassOf,rdf_label,definition
-UPS,brick:Electrical_Equipment,UPS,Uninteruptible Power Supply
-UPS_Status,brick:Status,UPS Status,
-Seconds_On_Battery,ext:UPS_Status,Seconds On Battery," If the UPS is on battery power, the elapsed time since the UPS last switched to battery power"
-Minutes_Remaining,ext:UPS_Status,Minutes Remaining,"An estimate of the time to battery charge depletion under the present load conditions if the utility power is off and remains off, or if it were to be lost and remain off"
-Input_Voltage_Sensor,brick:Voltage_Sensor,Input Voltage Sensor,Measures the voltage input to some process or device
-Input_Frequency_Sensor,brick:Frequency_Sensor,Input Frequency Sensor,
-Charge_Remaining,ext:UPS_Status,Charge Remaining,An estimate of the battery charge remaining expressed as a percent of full charge
-UPS_Load,ext:UPS_Status,UPS Load,An estimate of the load connected to the UPS measured in percentage
