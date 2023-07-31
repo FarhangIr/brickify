@@ -1,0 +1,73 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ext: <https://example.com/schema/BrickExtension#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ext:Fault_Reason a owl:Class ;
+    rdfs:label "Fault Reason" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Lamp a owl:Class ;
+    rdfs:label "Lamp" ;
+    rdfs:subClassOf ext:Emergency_Light,
+        ext:Exit_Light ;
+    skos:definition "" .
+
+ext:Last_Discharge_Test_Result a owl:Class ;
+    rdfs:label "Last Discharge Test Result" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Function_Test_Result a owl:Class ;
+    rdfs:label "Last Function Test Result" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Test_Date_Time a owl:Class ;
+    rdfs:label "Last Test Date Time" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Test_Minutes a owl:Class ;
+    rdfs:label "Last Test Minutes" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Test_Required_Duration a owl:Class ;
+    rdfs:label "Last Test Required Duration" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Test_Result a owl:Class ;
+    rdfs:label "Last Test Result" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Last_Update a owl:Class ;
+    rdfs:label "Last Update" ;
+    rdfs:subClassOf ext:Light_Fitting_Status ;
+    skos:definition "" .
+
+ext:Light_Fitting_Battery a owl:Class ;
+    rdfs:label "Light Fitting Battery" ;
+    rdfs:subClassOf ext:Emergency_Light,
+        ext:Exit_Light ;
+    skos:definition "" .
+
+ext:Emergency_Light a owl:Class ;
+    rdfs:label "Emergency Light Fitting" ;
+    rdfs:subClassOf brick:Lighting_Equipment ;
+    skos:definition "" .
+
+ext:Exit_Light a owl:Class ;
+    rdfs:label "Exit Light Fitting" ;
+    rdfs:subClassOf brick:Lighting_Equipment ;
+    skos:definition "" .
+
+ext:Light_Fitting_Status a owl:Class ;
+    rdfs:label "Light Fitting Status" ;
+    rdfs:subClassOf brick:Status ;
+    skos:definition "" .
+

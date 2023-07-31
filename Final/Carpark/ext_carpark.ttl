@@ -1,0 +1,96 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ext: <https://example.com/schema/BrickExtension#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ext:Boom_Gate a owl:Class ;
+    rdfs:label "Boom Gate" ;
+    rdfs:subClassOf ext:Carpark_Equipment ;
+    skos:definition "" .
+
+ext:Carpark_System a owl:Class ;
+    rdfs:label "Carpark System" ;
+    rdfs:subClassOf brick:System ;
+    skos:definition "" .
+
+ext:Close_Command a owl:Class ;
+    rdfs:label "Close Command" ;
+    rdfs:subClassOf brick:Command ;
+    skos:definition "" .
+
+ext:Close_Status a owl:Class ;
+    rdfs:label "Close Status" ;
+    rdfs:subClassOf brick:Status ;
+    skos:definition "" .
+
+ext:General_Error_Status a owl:Class ;
+    rdfs:label "General Error Status" ;
+    rdfs:subClassOf ext:Boom_Gate_Status ;
+    skos:definition "" .
+
+ext:Impact_Detection_Status a owl:Class ;
+    rdfs:label "Impact Detection Status" ;
+    rdfs:subClassOf ext:Boom_Gate_Status ;
+    skos:definition "" .
+
+ext:Laser_Scanner a owl:Class ;
+    rdfs:label "Laser Scanner" ;
+    rdfs:subClassOf brick:Sensor ;
+    skos:definition "" .
+
+ext:Mains_Power_Status a owl:Class ;
+    rdfs:label "Mains Power Status" ;
+    rdfs:subClassOf ext:Boom_Gate_Status ;
+    skos:definition "" .
+
+ext:Open_Command a owl:Class ;
+    rdfs:label "Open Command" ;
+    rdfs:subClassOf brick:Command ;
+    skos:definition "" .
+
+ext:Open_Status a owl:Class ;
+    rdfs:label "Open Status" ;
+    rdfs:subClassOf brick:Status ;
+    skos:definition "" .
+
+ext:Programmable_Logic_Controller a owl:Class ;
+    rdfs:label "Programmable Logic Controller" ;
+    rdfs:subClassOf brick:Equipment ;
+    skos:definition "" .
+
+ext:Strobe_Light a owl:Class ;
+    rdfs:label "Strobe Light" ;
+    rdfs:subClassOf ext:Carpark_Equipment ;
+    skos:definition "" .
+
+ext:Traffic_Light a owl:Class ;
+    rdfs:label "Traffic Light" ;
+    rdfs:subClassOf ext:Carpark_Equipment ;
+    skos:definition "" .
+
+ext:Traffic_Light_Control_Panel a owl:Class ;
+    rdfs:label "Traffic Light Control Panel" ;
+    rdfs:subClassOf ext:Carpark_Equipment ;
+    skos:definition "" .
+
+ext:Vandilism_Status a owl:Class ;
+    rdfs:label "Vandilism Status" ;
+    rdfs:subClassOf ext:Boom_Gate_Status ;
+    skos:definition "" .
+
+ext:Vehicle_Counter a owl:Class ;
+    rdfs:label "Vehicle Counter" ;
+    rdfs:subClassOf ext:Photoelectric_Sensor ;
+    skos:definition "" .
+
+ext:Photoelectric_Sensor a owl:Class ;
+    rdfs:label "Photoelectric Sensor" ;
+    rdfs:subClassOf brick:Sensor ;
+    skos:definition "" .
+
+ext:Carpark_Equipment a owl:Class ;
+    rdfs:label "Carpark Equipment" ;
+    rdfs:subClassOf brick:Equipment ;
+    skos:definition "" .
+

@@ -1,0 +1,12 @@
+---
+namespace_prefixes:
+  brick: "https://brickschema.org/schema/Brick#"
+  skos: "http://www.w3.org/2004/02/skos/core#"
+  ext: "https://example.com/schema/BrickExtension#" 
+operations:
+  -
+    data: |-
+      ext:{class} a owl:Class ;
+                  rdfs:subClassOf {subClassOf} ;
+                  rdfs:label "{rdf_label}" ;
+                  skos:definition "{definition}" .

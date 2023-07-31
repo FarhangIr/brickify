@@ -1,0 +1,71 @@
+---
+namespace_prefixes:
+  brick: "https://brickschema.org/schema/Brick#"
+  ext: "https://example.com/schema/BrickExtension#"
+  unit: "http://qudt.org/vocab/unit/"
+  nsp: "https://w3id.org/se/building/nsp#"
+operations:
+  -
+    data: |-
+      bldg:{Id} rdfs:label "{rdf_label}" ;
+                rdf:type {rdf_type} .
+  -
+    conditions:
+      - |
+        '{brick_hasUnit}' != ""
+    data: |-
+      bldg:{Id} brick:hasUnit {brick_hasUnit} .
+  - 
+   conditions:
+      - |
+        '{EBO_path}' != ""
+   data: |-
+      bldg:{Id} nsp:hasPath "{EBO_path}" .
+  - 
+   conditions:
+      - |
+        '{brick_hasLocation}' != ""
+   data: |-
+      bldg:{Id} brick:hasLocation bldg:{brick_hasLocation} .
+  - 
+   conditions:
+      - |
+        '{brick_isPartOf}' != ""
+   data: |-
+      bldg:{Id} brick:isPartOf bldg:{brick_isPartOf} .  
+  - 
+   conditions:
+      - |
+        '{brick_isFedBy}' != ""
+   data: |-
+      bldg:{Id} brick:isFedBy bldg:{brick_isFedBy} .
+  - 
+   conditions:
+      - >-
+        "_LampState" in "{Id}"
+   data: |-
+      bldg:{brick_isPointOf}_Lamp rdf:type ext:Lamp ;          # add Lamp equipment
+                          brick:isPartOf bldg:{brick_isPointOf} ;       # part of Emergency/Exit Light
+                          brick:hasPoint bldg:{Id}  .
+  - 
+   conditions:
+      - >-
+        "_BatteryState" in "{Id}"
+   data: |-
+      bldg:{brick_isPointOf}_Battery rdf:type ext:Light_Fitting_Battery ;          # add Battery equipment
+                          brick:isPartOf bldg:{brick_isPointOf} ;       # part of Emergency/Exit Light
+                          brick:hasPoint bldg:{Id}  .
+  - 
+   conditions:
+      - >-
+        "_FittingStatus" in "{Id}" or
+        "_FaultReason" in "{Id}" or
+        "_LastDischargeTestDateTime" in "{Id}" or
+        "_LTReqDuration" in "{Id}" or
+        "_LTResult" in "{Id}" or
+        "_LTMinutes" in "{Id}" or
+        "_LastDtResult" in "{Id}" or
+        "_LastFtResult" in "{Id}" or
+        "_LastUpdate" in "{Id}"        
+   data: |-
+      bldg:{Id} brick:isPointOf bldg:{brick_isPointOf} .

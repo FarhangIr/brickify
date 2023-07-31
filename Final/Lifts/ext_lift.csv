@@ -1,0 +1,11 @@
+class,subClassOf,rdf_label,definition
+Elevator_Status,brick:Status,Elevator Status,
+Elevator_Operation_Mode,ext:Elevator_Status,Elevator Operation Mode,
+Elevator_Group_Position,ext:Elevator_Status,Elevator Group Position,
+Elevator_Load,ext:Elevator_Status,Elevator Load,
+Elevator_Door_State,ext:Elevator_Status,Elevator Door State,
+Elevator_Moving_Direction,ext:Elevator_Status,Elevator Moving Direction,
+Elevator_Passanger_Alarm,ext:Elevator_Status,Elevator Passanger Alarm,
+Elevator_Trip_Counter,ext:Elevator_Status,Elevator Trip Counter,
+Elevator_Destination_Call,ext:Elevator_Status,Elevator Destination Call,
+Elevator_Boarding_Call,ext:Elevator_Status,Elevator Boarding Call,

@@ -1,0 +1,6 @@
+class,subClassOf,rdf_label,definition
+Blind_Zone,brick:Zone,Blind Zone,
+Blind_System,brick:System,Blind System,
+Blind_Zone_Equipment_Group,ext:Blind_System,Blind Zone Equipment Group,A grouping of blind motors and controllers that are driven by common control logic
+Blind_Equipment,brick:Equipment,Blind Equipment,
+Blind_Controller,ext:Blind_Equipment,Blind Controller,"A controller used to control electric motors in blinds, roller shutters, canopies, awnings and curtains"

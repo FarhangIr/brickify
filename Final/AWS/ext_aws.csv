@@ -1,0 +1,7 @@
+class,subClassOf,rdf_label,definition
+Environment_Quality_Equipment,brick:Equipment,Environment Quality Equipment,
+Gateway,ext:Environment_Quality_Equipment,Gateway,
+Indoor_Environment_Quality_Sensor,brick:Sensor,Indoor Environment Quality Sensor,
+Average_Indoor_Environment_Quality_Sensor,brick:Sensor,Average Indoor Environment Quality Sensor,
+Sound_Pressure_Level_Sensor,brick:Sensor,Sound Pressure Level Sensor,
+Room_Count,brick:Sensor,Room Count,

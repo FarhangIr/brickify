@@ -1,0 +1,343 @@
+@prefix bldg: <https://example.com/bldg#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix ext: <https://example.com/schema/BrickExtension#> .
+@prefix nsp: <https://w3id.org/se/building/nsp#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+bldg:K-T-07-BLMOC-001_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-001 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-001_PwF//Value" .
+
+bldg:K-T-07-BLMOC-002_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-002 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-002_PwF//Value" .
+
+bldg:K-T-07-BLMOC-003_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-003 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-003_PwF//Value" .
+
+bldg:K-T-07-BLMOC-004_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-004 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-004_PwF//Value" .
+
+bldg:K-T-07-BLMOC-005_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-005 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-005_PwF//Value" .
+
+bldg:K-T-07-BLMOC-006_PwF a brick:Fault_Status ;
+    rdfs:label "Power Supply Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMOC-006 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMOC-006_PwF//Value" .
+
+bldg:K-T-07-BLMTR-011_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-011 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-011_MtF//Value" .
+
+bldg:K-T-07-BLMTR-012_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-012 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-012_MtF//Value" .
+
+bldg:K-T-07-BLMTR-013_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-013 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-013_MtF//Value" .
+
+bldg:K-T-07-BLMTR-014_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-014 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-014_MtF//Value" .
+
+bldg:K-T-07-BLMTR-021_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-021 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-021_MtF//Value" .
+
+bldg:K-T-07-BLMTR-022_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-022 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-022_MtF//Value" .
+
+bldg:K-T-07-BLMTR-023_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-023 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-023_MtF//Value" .
+
+bldg:K-T-07-BLMTR-024_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-024 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-024_MtF//Value" .
+
+bldg:K-T-07-BLMTR-031_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-031 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-031_MtF//Value" .
+
+bldg:K-T-07-BLMTR-032_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-032 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-032_MtF//Value" .
+
+bldg:K-T-07-BLMTR-033_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-033 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-033_MtF//Value" .
+
+bldg:K-T-07-BLMTR-041_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-041 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-041_MtF//Value" .
+
+bldg:K-T-07-BLMTR-042_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-042 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-042_MtF//Value" .
+
+bldg:K-T-07-BLMTR-043_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-043 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-043_MtF//Value" .
+
+bldg:K-T-07-BLMTR-044_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-044 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-044_MtF//Value" .
+
+bldg:K-T-07-BLMTR-051_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-051 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-051_MtF//Value" .
+
+bldg:K-T-07-BLMTR-052_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-052 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-052_MtF//Value" .
+
+bldg:K-T-07-BLMTR-053_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-053 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-053_MtF//Value" .
+
+bldg:K-T-07-BLMTR-054_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-054 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-054_MtF//Value" .
+
+bldg:K-T-07-BLMTR-061_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-061 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-061_MtF//Value" .
+
+bldg:K-T-07-BLMTR-062_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-062 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-062_MtF//Value" .
+
+bldg:K-T-07-BLMTR-063_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-063 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-063_MtF//Value" .
+
+bldg:K-T-07-BLMTR-064_MtF a brick:Fault_Status ;
+    rdfs:label "Motor Fault" ;
+    brick:isPointOf bldg:K-T-07-BLMTR-064 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLMTR-064_MtF//Value" .
+
+bldg:K-T-07-BLZNE-001_PsF a brick:Position_Sensor ;
+    rdfs:label "Position Feedback" ;
+    brick:hasUnit unit:PERCENT ;
+    brick:isPointOf bldg:K-T-07-BLZNE-001 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-001_PsF//Value" .
+
+bldg:K-T-07-BLZNE-001_Sts a brick:Status ;
+    rdfs:label "Status" ;
+    brick:isPointOf bldg:K-T-07-BLZNE-001 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-001_Sts//Value" .
+
+bldg:K-T-07-BLZNE-002_PsF a brick:Position_Sensor ;
+    rdfs:label "Position Feedback" ;
+    brick:hasUnit unit:PERCENT ;
+    brick:isPointOf bldg:K-T-07-BLZNE-002 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-002_PsF//Value" .
+
+bldg:K-T-07-BLZNE-002_Sts a brick:Status ;
+    rdfs:label "Status" ;
+    brick:isPointOf bldg:K-T-07-BLZNE-002 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-002_Sts//Value" .
+
+bldg:K-T-07-BLZNE-003_PsF a brick:Position_Sensor ;
+    rdfs:label "Position Feedback" ;
+    brick:hasUnit unit:PERCENT ;
+    brick:isPointOf bldg:K-T-07-BLZNE-003 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-003_PsF//Value" .
+
+bldg:K-T-07-BLZNE-003_Sts a brick:Status ;
+    rdfs:label "Status" ;
+    brick:isPointOf bldg:K-T-07-BLZNE-003 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-003_Sts//Value" .
+
+bldg:K-T-07-BLZNE-004_PsF a brick:Position_Sensor ;
+    rdfs:label "Position Feedback" ;
+    brick:hasUnit unit:PERCENT ;
+    brick:isPointOf bldg:K-T-07-BLZNE-004 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-004_PsF//Value" .
+
+bldg:K-T-07-BLZNE-004_Sts a brick:Status ;
+    rdfs:label "Status" ;
+    brick:isPointOf bldg:K-T-07-BLZNE-004 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-004_Sts//Value" .
+
+bldg:K-T-07-BLZNE-005_PsF a brick:Position_Sensor ;
+    rdfs:label "Position Feedback" ;
+    brick:hasUnit unit:PERCENT ;
+    brick:isPointOf bldg:K-T-07-BLZNE-005 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-005_PsF//Value" .
+
+bldg:K-T-07-BLZNE-005_Sts a brick:Status ;
+    rdfs:label "Status" ;
+    brick:isPointOf bldg:K-T-07-BLZNE-005 ;
+    nsp:hasPath "/EB-T-B1-LBES-001/Blinds/BACnet Interface/IP Network/K_T_02_BLJACE_002_126702/Application/K-T-07-BLZNE-005_Sts//Value" .
+
+bldg:K-T-07-BLMTR-011 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-011" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-001 .
+
+bldg:K-T-07-BLMTR-012 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-012" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-001 .
+
+bldg:K-T-07-BLMTR-013 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-013" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-001 .
+
+bldg:K-T-07-BLMTR-014 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-014" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-001 .
+
+bldg:K-T-07-BLMTR-021 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-021" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-002 .
+
+bldg:K-T-07-BLMTR-022 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-022" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-002 .
+
+bldg:K-T-07-BLMTR-023 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-023" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-002 .
+
+bldg:K-T-07-BLMTR-024 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-024" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-002 .
+
+bldg:K-T-07-BLMTR-031 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-031" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-003 .
+
+bldg:K-T-07-BLMTR-032 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-032" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-003 .
+
+bldg:K-T-07-BLMTR-033 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-033" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-003 .
+
+bldg:K-T-07-BLMTR-041 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-041" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-004 .
+
+bldg:K-T-07-BLMTR-042 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-042" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-004 .
+
+bldg:K-T-07-BLMTR-043 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-043" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-004 .
+
+bldg:K-T-07-BLMTR-044 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-044" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-004 .
+
+bldg:K-T-07-BLMTR-051 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-051" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-005 .
+
+bldg:K-T-07-BLMTR-052 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-052" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-005 .
+
+bldg:K-T-07-BLMTR-053 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-053" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-005 .
+
+bldg:K-T-07-BLMTR-054 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-054" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-005 .
+
+bldg:K-T-07-BLMTR-061 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-061" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-006 .
+
+bldg:K-T-07-BLMTR-062 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-062" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-006 .
+
+bldg:K-T-07-BLMTR-063 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-063" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-006 .
+
+bldg:K-T-07-BLMTR-064 a brick:Motor ;
+    rdfs:label "K-T-07-BLMTR-064" ;
+    brick:isPartOf bldg:K-T-07-BLMOC-006 .
+
+bldg:K-T-07-BLZNE-001 a ext:Blind_Zone_Equipment_Group ;
+    rdfs:label "K-T-07-BLZNE-001" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLZNE-002 a ext:Blind_Zone_Equipment_Group ;
+    rdfs:label "K-T-07-BLZNE-002" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLZNE-003 a ext:Blind_Zone_Equipment_Group ;
+    rdfs:label "K-T-07-BLZNE-003" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLZNE-004 a ext:Blind_Zone_Equipment_Group ;
+    rdfs:label "K-T-07-BLZNE-004" ;
+    brick:hasLocation bldg:Level_07_East_Perimeter .
+
+bldg:K-T-07-BLZNE-005 a ext:Blind_Zone_Equipment_Group ;
+    rdfs:label "K-T-07-BLZNE-005" ;
+    brick:hasLocation bldg:Level_07_East_Perimeter .
+
+bldg:K-T-07-BLMOC-003 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-003" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLMOC-001 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-001" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLMOC-002 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-002" ;
+    brick:hasLocation bldg:Level_07_North_West_Perimeter_01 .
+
+bldg:K-T-07-BLMOC-004 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-004" ;
+    brick:hasLocation bldg:Level_07_East_Perimeter .
+
+bldg:K-T-07-BLMOC-005 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-005" ;
+    brick:hasLocation bldg:Level_07_East_Perimeter .
+
+bldg:K-T-07-BLMOC-006 a ext:Blind_Controller ;
+    rdfs:label "K-T-07-BLMOC-006" ;
+    brick:hasLocation bldg:Level_07_East_Perimeter .
+
